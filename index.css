@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form {
+  font-family:'Lucida Sans';
+  background-color: rgb(202, 157, 133);
+  margin: 4%;
+  margin-left: 35%;
+  margin-right: 32%;
+  padding: 2%;
+  padding-left: 3%;
+  border: solid black 1px;
+}
+
+button {
+  background-color: rgb(120, 93, 58);
+  color: white;
+  font-size: 18px;
+  padding: 2%;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+
+button:hover {
+  background-color: burlywood;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input:hover {
+  cursor: pointer;
+}
